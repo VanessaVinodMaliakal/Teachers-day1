@@ -1,0 +1,31 @@
+.menu{
+    display: flex;
+    justify-content: space-between;
+    background-color: #000000;
+    padding: 5px;
+    font-size: 30px;
+    font-family: sans-serif;
+    font-weight: 30;
+    color: #ffffff;
+}
+.grid{
+    display : flex;
+    flex-wrap: wrap;
+    justify-content : space-evenly;
+}
+body{
+    margin: 0px;
+    background-color:#E0FFA2;
+}
+.alignment{
+    text-align: center;
+}
+.grid{
+    display : flex;
+    flex-wrap: wrap;
+    justify-content : space-between;
+    align-items : baseline;
+}
+.gridImg{
+    border: 2px solid black;
+}
